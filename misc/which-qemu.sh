@@ -4,6 +4,8 @@
 # Use the version in the /c/cs422/tools/bin directory first (XXX local hack!)
 # Otherwise, look in a couple typical places.
 
+echo qemu-system-i386
+exit
 if test -x /c/cs422/tools/bin/qemu; then
 	echo /c/cs422/tools/bin/qemu
 	exit
